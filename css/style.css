@@ -1,0 +1,21 @@
+h1{
+    color:green;
+}
+body{
+    background-color: mistyrose;
+    /* Web-safe fonts in CSS means no external font needs to be loaded */
+    /* If Arial can't be loaded, the next fon't will be loaded and so on */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Another way */
+    /* font: normal 18px Arial, Helvetica, sans-serif; */
+    /* to put some spacing */
+    /* em or px can both be used */
+    line-height: 1.6em;
+    margin: 0;
+}   
+.box-1{
+    /* shortcut for the color 3333333 */
+    background-color: #333;
+}
